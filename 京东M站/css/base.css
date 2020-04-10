@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*  */
+    -webkit-tap-highlight-color: transparent;
+    /*  */
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    /*  */
+    font-family: 'Microsoft YaHei' sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul {
+    list-style: none;
+}
+input,textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    /*  */
+    -webkit-appearance: none;
+}
+/* 清除浮动 */
+.clearfix::after,.clearfix:before {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* 精灵图的公共部分 */
+[class*='icon-']{
+    background-image: url(../img/sprites.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+}

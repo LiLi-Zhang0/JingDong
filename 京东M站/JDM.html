@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东M站</title>
+    <link rel="stylesheet" href="./swiper-5.3.6/package/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<style>
+    .swiper-container {
+        width: 100%;
+        height: 150px;
+    }
+    .swiper-slide {
+        width: 100%;
+        height: 150px;
+    }
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <!-- 头部搜索框 -->
+        <div class="header">
+            <div class="headerBox">
+                <a href="#" class="icon-logo"></a>
+                <form action="">
+                    <span class="icon-search"></span>
+                    <input type="search" placeholder="提示">
+                </form>
+                <span>登录</span>
+            </div>
+        </div>
+        <!-- 轮播图部分 -->
+            <!-- 轮播图片 -->
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/l1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l6.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/l8.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+            <!-- <ul>
+                <li><img src="./img/l2.jpg" alt=""></li>
+                <li><img src="./img/l2.jpg" alt=""></li>
+                <li><img src="./img/l3.jpg" alt=""></li>
+                <li><img src="./img/l4.jpg" alt=""></li>
+                <li><img src="./img/l5.jpg" alt=""></li>
+                <li><img src="./img/l6.jpg" alt=""></li>
+                <li><img src="./img/l7.jpg" alt=""></li>
+                <li><img src="./img/l8.jpg" alt=""></li>
+            </ul> -->
+            <!-- 小圆点 -->
+            <!-- <ul>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+                <li class="spot"></li>
+            </ul> -->
+        <!-- 导航栏部分 -->
+        <div class="nav">
+            <ul>
+                <li>
+                    <img src="./img/nav0.png" alt="">
+                    <p>分类查询</p>
+                </li>
+                <li>
+                    <img src="./img/nav1.png" alt="">
+                    <p>物流查询</p>
+                </li>
+                <li>
+                    <img src="./img/nav2.png" alt="">
+                    <p>购物车</p>
+                </li>
+                <li>
+                    <img src="./img/nav3.png" alt="">
+                    <p>我的京东</p>
+                </li>
+                <li>
+                    <img src="./img/nav4.png" alt="">
+                    <p>充值</p>
+                </li>
+                <li>
+                    <img src="./img/nav5.png" alt="">
+                    <p>领券中心</p>
+                </li>
+                <li>
+                    <img src="./img/nav6.png" alt="">
+                    <p>京东超市</p>
+                </li>
+                <li>
+                    <img src="./img/nav7.png" alt="">
+                    <p>我的关注</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- 产品信息 -->
+        <div class="product">
+            <!-- 倒计时秒杀部分 -->
+            <div class="product_one  clearfix">
+                <!-- 掌上秒杀部分 -->
+                <div class="product_top">
+                    <div class="product_left">
+                        <a href="#" class="product_a"><img src="./img/seckill-icon.png" alt=""></a>
+                        <div class="product_ms">
+                            <span class="product_span">掌上秒杀</span>
+                            <span class="runTime">0</span>
+                            <span class="runTime">0</span>
+                            <span>:</span>
+                            <span class="runTime">0</span>
+                            <span class="runTime">0</span>
+                            <span>:</span>
+                            <span class="runTime">0</span>
+                            <span class="runTime">0</span>
+                        </div>
+                    </div>
+                    <div class="product_right">
+                        <a href="#"><span class="product_b">更多></span></a>
+                    </div>
+                </div>
+                <!-- 电脑部分 -->
+                <div class="product_computer">
+                    <ul>
+                        <li>
+                            <div><img src="./img/detail02.jpg"></div>
+                            <p>&yen;20.00</p>
+                            <p><del>&yen;200.00</del></p>
+                        </li>
+                        <li>
+                            <div><img src="./img/detail02.jpg"></div>
+                            <p>&yen;20.00</p>
+                            <p><del>&yen;200.00</del></p>
+                        </li>
+                        <li>
+                            <div class="productDiv"><img src="./img/detail02.jpg"></div>
+                            <p>&yen;20.00</p>
+                            <p><del>&yen;200.00</del></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 超值购 -->
+            <div class="product_two clearfix">
+                <div class="superBuy_top">
+                    <p>超值购</p>
+                </div>
+                <div class="superBuy_main">
+                    <div class="superBuy_l"><img src="./img/cp1.jpg" alt=""></div>
+                    <div class="superBuy_r">
+                        <div class="superBuy_imgTop"><img src="./img/cp2.jpg" alt=""></div>
+                        <div class="superBuy_imgFoot"><img src="./img/cp3.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 超值购底部 -->
+            <div class="product_three clearfix">
+                <div class="superBuy_top">
+                    <p>超值购</p>
+                </div>
+                <div class="superBuy_main">
+                    <div class="superBuy_l">
+                        <div class="superBuy_imgTop"><img src="./img/cp5.jpg" alt=""></div>
+                        <div class="superBuy_imgFoot"><img src="./img/cp6.jpg" alt=""></div>
+                    </div>
+                    <div class="superBuy_r"><img src="./img/cp4.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jdm.js"></script>
+<script src="./swiper-5.3.6/package/js/swiper.min.js"></script>
+<script>
+    /* swiper初始化 */
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+     /*  navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }, */
+    });
+</script>
+</html>
